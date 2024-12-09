@@ -41,8 +41,8 @@ const SideBar: React.FC<SideBarProps> = ({ isSidebarVisible }) => {
   return (
     <div
       className={`${
-        isSidebarVisible ? "w-[20%]" : "w-0 p-0"
-      } bg-custom-secondary h-full p-5 flex flex-col transition-all duration-500 overflow-hidden`}
+        isSidebarVisible ? "w-[20%] p-5" : "w-0 p-0"
+      } bg-custom-secondary h-full flex flex-col transition-all duration-500 overflow-hidden`}
     >
       <div className="flex-1">
         <div className="pt-2 pb-10 border-b border-gray-400">
